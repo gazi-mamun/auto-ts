@@ -45,6 +45,20 @@ const fetchTodo = async () => {
 };
 ```
 
+
+### Browser Behavior: Triggers a download of `TodoType.ts` with:
+
+```typescript
+interface Todo {
+  userId: number;
+  id: number;
+  title: string;
+  completed: boolean;
+}
+
+export { Todo };
+```
+
 ### 2. Basic Example (Node.js)
 
 ```typescript
@@ -133,19 +147,6 @@ interface Product {
 }
 
 export { Product };
-```
-
-### Browser Behavior: Triggers a download of `TodoType.ts` with:
-
-```typescript
-interface Todo {
-  userId: number;
-  id: number;
-  title: string;
-  completed: boolean;
-}
-
-export { Todo };
 ```
 
 ### 5. With Raw SQL Data 🐬
