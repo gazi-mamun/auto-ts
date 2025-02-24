@@ -1,0 +1,59 @@
+{
+  "name": "auto-ts",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "description": "Automatically generate TypeScript interfaces from JSON data, API responses, or database schemas. Perfect for Mongoose, Sequelize, and raw data. Simplify your workflow and ensure type safety with just one function call!",
+  "keywords": [
+    "type-generator",
+    "typescript",
+    "interface-generator",
+    "schema-to-types",
+    "automatic-types",
+    "data-to-types",
+    "json-to-typescript",
+    "mongoose-types",
+    "sequelize-types",
+    "api-response-types",
+    "type-safe",
+    "code-generation",
+    "developer-tools",
+    "typescript-utility",
+    "automation"
+  ],
+  "author": "Gazi Assadujjaman Mamun <gaziandmamun@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "mongodb": "^6.13.1"
+  },
+  "browser": {
+    "fs": false,
+    "path": false
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.5",
+    "typescript": "^5.7.3",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "eslint-plugin-react": "^7.34.1",
+    "prettier": "^3.2.5",
+    "standard": "^17.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gazi-mamun/auto-ts"
+  }
+}
