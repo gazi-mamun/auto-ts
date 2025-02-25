@@ -21,9 +21,9 @@
 ## Installation 💻
 
 ```bash
-npm install auto-ts
+npm install auto-typegen
 # or
-yarn add auto-ts
+yarn add auto-typegen
 ```
 
 ## Usage 🚀
@@ -31,7 +31,7 @@ yarn add auto-ts
 ### 1. In React ⚛️
 
 ```typescript
-import { createTypedFetch } from 'auto-ts';
+import { createTypedFetch } from 'auto-typegen';
 
 const fetchTodo = async () => {
   const res = await fetch('https://api.example.com/todos/1');
@@ -61,7 +61,7 @@ export { Todo };
 ### 2. Basic Example (Node.js)
 
 ```typescript
-import { createTypedFetch } from 'auto-ts';
+import { createTypedFetch } from 'auto-typegen';
 
 const user = {
   id: 1,
@@ -93,7 +93,7 @@ export { User };
 ### 3. With Mongoose 🍃
 
 ```typescript
-import { createTypedFetch } from 'auto-ts';
+import { createTypedFetch } from 'auto-typegen';
 import UserModel from './models/User';
 
 const user = await UserModel.findOne({ email: 'test@example.com' });
@@ -122,7 +122,7 @@ export { User };
 ### 4. With Sequelize 🗄️
 
 ```typescript
-import { createTypedFetch } from 'auto-ts';
+import { createTypedFetch } from 'auto-typegen';
 import Product from './models/Product';
 
 const product = await Product.findByPk(123);
@@ -151,7 +151,7 @@ export { Product };
 ### 5. With Raw SQL Data 🐬
 
 ```typescript
-import { createTypedFetch } from 'auto-ts';
+import { createTypedFetch } from 'auto-typegen';
 import { executeQuery } from './database';
 
 const results = await executeQuery('SELECT * FROM orders WHERE user_id = 456');
