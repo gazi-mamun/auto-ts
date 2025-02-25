@@ -9,7 +9,7 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "declaration": true,
-    "sourceMap": true,
+    "sourceMap": false,
     "resolveJsonModule": true,
     "lib": ["ES2017", "DOM"],
     "moduleResolution": "node",
