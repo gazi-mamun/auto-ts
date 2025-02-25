@@ -1,5 +1,5 @@
 {
-  "name": "json-typegen",
+  "name": "auto-typegen",
   "version": "1.0.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -54,6 +54,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gazi-mamun/json-typegen.git"
+    "url": "https://github.com/gazi-mamun/auto-typegen.git"
   }
 }

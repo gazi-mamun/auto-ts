@@ -1,8 +1,8 @@
-# json-typegen 🚀
+# auto-typegen 🚀
 
-[![npm version](https://img.shields.io/npm/v/json-typegen)](https://www.npmjs.com/package/json-typegen)
-[![License](https://img.shields.io/npm/l/json-typegen)](https://opensource.org/licenses/MIT)
-[![Downloads](https://img.shields.io/npm/dm/json-typegen)](https://www.npmjs.com/package/json-typegen)
+[![npm version](https://img.shields.io/npm/v/auto-typegen)](https://www.npmjs.com/package/auto-typegen)
+[![License](https://img.shields.io/npm/l/auto-typegen)](https://opensource.org/licenses/MIT)
+[![Downloads](https://img.shields.io/npm/dm/auto-typegen)](https://www.npmjs.com/package/auto-typegen)
 
 **Automatically generate TypeScript interfaces from JSON data, API responses, or database schemas.** Perfect for Mongoose, Sequelize, and raw data. Simplify your workflow and ensure type safety with just one function call!
 
